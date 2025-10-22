@@ -4,6 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+         .nav {
+            padding-right: 100px;
+        }
+
+        .bb {
+            width: 215px;
+            height: 50px;
+
+        }
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -12,6 +21,53 @@
 
 <body>
     <div class="container">
+
+         <nav class="navbar sticky-top bg-body-tertiary">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg bg-body">
+                    <div class="container">
+                        <button type="button" class="btn btn-success bb">
+                            <li class="nav-item dropdown nav bg-success">
+                                <div class="nav-link text-dark dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Shop By catagery
+                                </div>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">LIGHTS</a></li>
+                                    <li><a class="dropdown-item" href="#">GREEN NETS</a></li>
+                                    <li><a class="dropdown-item" href="#">NUTS&BOLTS</a></li>
+                                    <li><a class="dropdown-item" href="#">FANS</a></li>
+                                </ul>
+                            </li>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item nav ms-5">
+                                    <span class="pt-4"><a class="text-decoration-none text-dark"
+                                            href="electonics.html">ELECTONICS</a></span>
+                                </li>
+                                <li class="nav-item nav">
+                                    <span class="pt-4"><a class="text-decoration-none text-dark" href="waterp.html">WATERPIPES&HARDWARE</a></span>
+                                </li>
+                                <li class="nav-item nav">
+                                    <span class="pt-4"><a class="text-decoration-none text-dark"
+                                            href="purifiers.html">PURIFIERS</a></span>
+                                </li>
+                                <li class="nav-item nav">
+                                    <span class="pt-4"><a class="text-decoration-none text-dark"
+                                            href="screws.html">SCREWS</a></span>
+                                </li>
+                                <li class="nav-item nav">
+                                    <span class="pt-4"><a class="text-decoration-none text-dark" href="ldpipes.html">LD
+                                            PIPES</a></span>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+
+        <div class="mt-5"></div>
         <div class="text-center">
             <h3>ELECTONICS ITAMS</h3>
         </div>
